@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotstar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body style="background-color: black;">
+    <nav class="side-nav">
+        <img src="./img/logo-d-plus.svg" alt="" class="logo"><br>
+        <span><button class="sub">Subscribe <i class="fa-solid fa-greater-than fa-2xs"></i></button></span>
+        <ul>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg></i></span>
+                    <span class="text">My Space</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></span>
+                    <span class="text">Search</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                        </svg></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+                            <path
+                                d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5M13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2" />
+                        </svg></span>
+                    <span class="text">TV</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z" />
+                        </svg></span>
+                    <span class="text">Movies</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="tennisball-outline"></ion-icon></span>
+                    <span class="text">Sports</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="copy-outline"></ion-icon></span>
+                    <span class="text">Categories</span>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <div class="hero-section">
+        <div class="box">
+            <img src="./img/text-1.webp" alt="">
+            <span>
+                <h1>2023 <ion-icon name="ellipse" class="ion"></ion-icon> 2h 6m <ion-icon name="ellipse"
+                        class="ion"></ion-icon> 5 Languages <ion-icon name="ellipse" class="ion"></ion-icon> <button>U/A
+                        13+</button></h1>
+            </span>
+            <P>To fulfill the elderly patriarch's wish, a dissonant family <br>embarks on a trip to Varanasi. Will this
+                journey mend <br> their bonds or deepen the fault lines?</P>
+            <h2>Comedy | Family | Dramedy</h2> <br>
+            <button class="btn1"><ion-icon name="caret-forward"></ion-icon> Subscribe to Watch</button>
+            <button class="btn2">+</button>
+        </div>
+
+        <div class="box1">
+            <div class="box1_1">
+                <img src="./img/slider_top1.webp" alt="" class="s_img">
+                <img src="./img/slider_top1.2.webp" alt="" class="s_img">
+                <img src="./img/slider_top1.3.webp" alt="" class="s_img">
+                <img src="./img/slider_top1.4.webp" alt="" class="s_img">
+               
+            </div>
+        </div>
+
+    </div>
+
+    <div class="heading">
+        <h1>Latest Releases</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="left"><a href="#1st_img"><</a></div>
+            <div class="slider">
+                <img src="./img/slider-1.webp" alt="" class="img-item" id="1st_img">
+                <img src="./img/slider-2.webp" alt="" class="img-item">
+                <img src="./img/slider-3.webp" alt="" class="img-item">
+                <img src="./img/slider-4.webp" alt="" class="img-item">
+                <img src="./img/slider-5.webp" alt="" class="img-item">
+                <img src="./img/slider-6.webp" alt="" class="img-item">
+                <img src="./img/slider-8.webp" alt="" class="img-item">
+                <img src="./img/slider-9.webp" alt="" class="img-item">
+                <img src="./img/slider-10.webp" alt="" class="img-item">
+                <img src="./img/slider-1.webp" alt="" class="img-item">
+                <img src="./img/slider-2.webp" alt="" class="img-item">
+                <img src="./img/slider-3.webp" alt="" class="img-item">
+                <img src="./img/slider-4.webp" alt="" class="img-item" id="last_img">
+                <img src="./img/slider-5.webp" alt="" class="img-item">
+                <img src="./img/slider-6.webp" alt="" class="img-item">
+
+            </div>
+            <div class="right"><a href="#last_img">></a></div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h1><span style="color:#00C3F4 ;">Free</span> Newly Added</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/slider1.1.webp" alt="" class="img-item">
+                <img src="./img/slider1.2.webp" alt="" class="img-item">
+                <img src="./img/slider1.3.webp" alt="" class="img-item">
+                <img src="./img/slider1.4.webp" alt="" class="img-item">
+                <img src="./img/slider1.5.webp" alt="" class="img-item">
+                <img src="./img/slider1.6.webp" alt="" class="img-item">
+                <img src="./img/slider1.8.webp" alt="" class="img-item">
+                <img src="./img/slider1.9.webp" alt="" class="img-item">
+                <img src="./img/slider1.10.webp" alt="" class="img-item">
+                
+                <img src="./img/slider1.2.webp" alt="" class="img-item">
+                <img src="./img/slider1.3.webp" alt="" class="img-item">
+                <img src="./img/slider1.4.webp" alt="" class="img-item">
+                <img src="./img/slider1.5.webp" alt="" class="img-item">
+                <img src="./img/slider1.6.webp" alt="" class="img-item">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h1>Best of Superheros</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/slider2.1.webp" alt="" class="img-item">
+                <img src="./img/slider2.2.webp" alt="" class="img-item">
+                <img src="./img/slider2.3.webp" alt="" class="img-item">
+                <img src="./img/slider2.4.webp" alt="" class="img-item">
+                <img src="./img/slider2.5.webp" alt="" class="img-item">
+                <img src="./img/slider2.6.webp" alt="" class="img-item">
+                <img src="./img/slider2.7.webp" alt="" class="img-item">
+                <img src="./img/slider2.8.webp" alt="" class="img-item">
+                <img src="./img/slider2.9.webp" alt="" class="img-item">
+                <img src="./img/slider2.10.webp" alt="" class="img-item">
+                <img src="./img/slider2.1.webp" alt="" class="img-item">
+                <img src="./img/slider2.2.webp" alt="" class="img-item">
+                <img src="./img/slider2.3.webp" alt="" class="img-item">
+                <img src="./img/slider2.5.webp" alt="" class="img-item">
+                <img src="./img/slider2.7.webp" alt="" class="img-item">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="hollywood">
+        <div class="h_img"><img src="./img/disney.webp" alt=""></div>
+        <div class="h_img"><img src="./img/pixar.webp" alt=""></div>
+        <div class="h_img"><img src="./img/marvel.webp" alt=""></div>
+        <div class="h_img"><img src="./img/star_wars.webp" alt=""></div>
+        <div class="h_img"><img src="./img/n_g.webp" alt=""></div>
+        <div class="h_img"><img src="./img/hotstar.webp" alt=""></div>
+
+    </div>
+
+    <div class="heading">
+        <h1>Popular Languages</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/hindi.webp" alt="" class="l_img">
+                <img src="./img/english.webp" alt="" class="l_img">
+                <img src="./img/Tamil.webp" alt="" class="l_img">
+                <img src="./img/telgu.webp" alt="" class="l_img">
+                <img src="./img/malayam.webp" alt="" class="l_img">
+                <img src="./img/bengali.webp" alt="" class="l_img">
+                <img src="./img/marathi.webp" alt="" class="l_img">
+                <img src="./img/kannada.webp" alt="" class="l_img">
+                <img src="./img/japanese.webp" alt="" class="l_img">
+                <img src="./img/korean.webp" alt="" class="l_img">
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h1>Popular Genres</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/romance.webp" alt="" class="l_img">
+                <img src="./img/drama.webp" alt="" class="l_img">
+                <img src="./img/family.webp" alt="" class="l_img">
+                <img src="./img/reality.webp" alt="" class="l_img">
+                <img src="./img/comedy.webp" alt="" class="l_img">
+                <img src="./img/mythology.webp" alt="" class="l_img">
+                <img src="./img/crime.webp" alt="" class="l_img">
+                <img src="./img/food.webp" alt="" class="l_img">
+                <img src="./img/action.webp" alt="" class="l_img">
+                <img src="./img/talk.webp" alt="" class="l_img">
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <h1>Best of Kids</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/slider3.1.webp" alt="" class="img-item">
+                <img src="./img/slider3.2.webp" alt="" class="img-item">
+                <img src="./img/slider3.3.webp" alt="" class="img-item">
+                <img src="./img/slider3.9.webp" alt="" class="img-item">
+                <img src="./img/slider3.5.webp" alt="" class="img-item">
+                <img src="./img/slider3.6.webp" alt="" class="img-item">
+                <img src="./img/slider3.7.webp" alt="" class="img-item">
+                <img src="./img/slider3.8.webp" alt="" class="img-item">
+                <img src="./img/slider3.9.webp" alt="" class="img-item">
+                <img src="./img/slider3.10.webp" alt="" class="img-item">
+                <img src="./img/slider3.1.webp" alt="" class="img-item">
+                <img src="./img/slider3.2.webp" alt="" class="img-item">
+                <img src="./img/slider3.4.webp" alt="" class="img-item">
+                <img src="./img/slider3.6.webp" alt="" class="img-item">
+                <img src="./img/slider3.8.webp" alt="" class="img-item">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <h1>Populer in Action</h1>
+    </div>
+
+    <div class="container">
+        <div class="slide-item">
+            <div class="slider">
+                <img src="./img/slider1.1.webp" alt="" class="img-item">
+                <img src="./img/slider2.2.webp" alt="" class="img-item">
+                <img src="./img/slider3.3.webp" alt="" class="img-item">
+                <img src="./img/slider2.4.webp" alt="" class="img-item">
+                <img src="./img/slider1.5.webp" alt="" class="img-item">
+                <img src="./img/slider2.6.webp" alt="" class="img-item">
+                <img src="./img/slider2.1.webp" alt="" class="img-item">
+                <img src="./img/slider2.8.webp" alt="" class="img-item">
+                <img src="./img/slider2.9.webp" alt="" class="img-item">
+                <img src="./img/slider2.10.webp" alt="" class="img-item">
+                <img src="./img/slider2.1.webp" alt="" class="img-item">
+                <img src="./img/slider2.2.webp" alt="" class="img-item">
+                <img src="./img/slider2.3.webp" alt="" class="img-item">
+                <img src="./img/slider2.5.webp" alt="" class="img-item">
+                <img src="./img/slider2.7.webp" alt="" class="img-item">
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="upper_footer">
+            <div>
+                <h5>Company</h5><br>
+                <p>About Us</p>
+                <p>Carrers</p>
+            </div>
+            <div>
+                <h5>View Website in</h5><br>
+                <p><i class="fa-solid fa-check" style="color: rgba(255, 255, 255, 0.505);"></i>  English</p>
+            </div>
+            <div>
+                <h5>Need Help?</h5><br>
+                <p>Visit Help Center</p>
+                <p>Share Feedback</p>
+            </div>
+            <div>
+                <h5> Connect with Us</h5><br>
+                <span><i class="fa-brands fa-square-facebook" style="color: white;"></i></span>
+                <i class="fa-brands fa-square-twitter" style="color:white;"></i>
+            </div>
+        </div>
+
+        <div class="lower_footer">
+            <div>
+                <p>© 2023 STAR. All Rights Reserved.</p>
+                <p>Terms Of Use  Privacy Policy  FAQ</p>
+            </div>
+            <div>
+                <img src="./img/google-playstore.webp" alt="" class="playstore">
+
+                <img src="./img/ios-appstore.webp" alt="" class="ios">
+            </div>
+        </div>
+
+        
+    </footer>
+    <div class="design">
+        <h5>Design by Vivek Chaudhary</h5>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
