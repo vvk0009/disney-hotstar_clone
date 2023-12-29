@@ -210,22 +210,6 @@ footer .upper_footer{
 .h_img{
     transition: all .5s ease-in-out;
 }
-.left a{
-    color: white;
-    position: relative;
-    top: 160px;
-    right: 25px;
-    font-size: 30px;
-    text-decoration: none;
-} 
-.right a{
-    color: white;
-    position: relative;
-    bottom: 170px;
-    left: 1310px;
-    font-size: 30px;
-    text-decoration: none;
-}
 
 .box1_1 img{
     width: 80px;
