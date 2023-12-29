@@ -188,7 +188,7 @@ footer .upper_footer{
     margin-top: 60px;
 
 }
-.playstore{
+.lower_footer .playstore{
     width: 150px;
     margin-left: 790px;
 }
@@ -227,6 +227,14 @@ footer .upper_footer{
     transform: scale(1.5);
 }
 
+.mobile_nav{
+  display: none;
+}
+
+.mobile_footer{
+  display: none;
+}
+
 
 @media (max-width:915px){
   .side-nav{
@@ -234,10 +242,9 @@ footer .upper_footer{
   }
 
   .hero-section {
-    background-image: url(./img/slider1.webp);
-    background-size: 410px 300px;
     background-repeat: no-repeat;
     height: 30vh;
+    width: 122%;
   }
 
   .hero-section .box img{
@@ -257,9 +264,32 @@ footer .upper_footer{
     display: none;
   }
 
+  .heading{
+    margin-left: 20px;
+  }
+
   footer{
     display: none;
   }
-  body{
+
+  .mobile_nav{
+    display: block;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile_nav img{
+    margin-left: 30px;
+  }
+
+  .mobile_footer{
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
