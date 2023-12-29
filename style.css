@@ -242,3 +242,40 @@ footer .upper_footer{
 .s_img:hover {
     transform: scale(1.5);
 }
+
+
+@media (max-width:915px){
+  .side-nav{
+    display: none;
+  }
+
+  .hero-section {
+    background-image: url(./img/slider1.webp);
+    background-size: 410px 300px;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+
+  .hero-section .box img{
+    width: 200px;
+    
+  }
+  .hero-section .box h1 ,p,h2, button{
+    display: none;
+  }
+
+
+  .box1{
+    display: none;
+  }
+
+  .hollywood{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+  body{
+  }
+}
